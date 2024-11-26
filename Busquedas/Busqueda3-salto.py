@@ -101,7 +101,7 @@ def buscar_dato_excel_salto(base_path, year_month, dni_buscado):
             print(f"No se encontró el DNI {dni_buscado} en los datos del mes {year}-{mes}.")
 
         print(f"\nTiempo transcurrido: {tiempo_transcurrido:.4f} segundos.")
-        print(f"Interacciones realizadas: {interacciones}")
+        print(f"Iteraciones realizadas: {len(datos_ordenados)}")
         print(f"Complejidad estimada: O(√n) con n = {len(datos_ordenados)}.")
 
     except Exception as e:

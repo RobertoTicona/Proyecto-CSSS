@@ -97,7 +97,7 @@ def buscar_dato_excel_binario(base_path, year_month, dni_buscado):
             print(f"No se encontró el DNI {dni_buscado} en los datos del mes {year}-{mes}.")
 
         print(f"\nTiempo transcurrido: {tiempo_transcurrido:.4f} segundos.")
-        print(f"Interacciones realizadas: {interacciones}")
+        print(f"Iteraciones realizadas: {len(datos_ordenados)}")
         print(f"Complejidad estimada: O(log n) para la búsqueda binaria con n = {len(datos_ordenados)}.")
         print(f"Además, el ordenamiento tiene complejidad O(n log n).")
 

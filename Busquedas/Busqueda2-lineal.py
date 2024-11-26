@@ -85,8 +85,8 @@ def buscar_dato_excel(base_path, year_month, dni_buscado):
             print(f"- DX: {dx}")
             print(f"- 2do Mes de Tratamiento: {segundo_mes_tratamiento}")
             print(f"\nTiempo transcurrido para encontrar el DNI: {tiempo_transcurrido:.4f} segundos.")
-            print(f"Interacciones realizadas: {interacciones}")
-            print(f"Complejidad estimada: O(n + m) con n = {interacciones} interacciones.")
+            print(f"Iteraciones realizadas: {interacciones}")
+            print(f"Complejidad estimada: O(n + m) con n = {interacciones} iteraciones.")
 
     except Exception as e:
         print(f"Error: {e}")
